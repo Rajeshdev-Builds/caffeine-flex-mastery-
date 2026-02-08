@@ -43,5 +43,5 @@ This project serves as a portfolio piece demonstrating:
 - `index.html`: Main site entry point.
 
 ---
-                                                               _Created by [Rajesh] as part of a deep learning journey into modern web design._
+  _Created by [Rajesh] as part of a deep learning journey into modern web design._
 
