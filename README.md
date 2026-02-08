@@ -1,8 +1,8 @@
-# caffeine-flex-mastery-
-A high-aesthetic, desktop-first landing page for Rajesh Cafe &amp; Bakery. Engineered with advanced SASS architecture and modern Flexbox to master complex UI layouts. ☕✨
+# Caffeine - Rajesh Cafe & Bakery ☕🥐
 
-![Desktop](./Screenshot-1.png)
-![Desktop](./screenshot2.png)
+A premium, high-aesthetic landing page for a fictional cafe and bakery. This project was built to showcase advanced CSS techniques, modular SASS architecture, and specifically to master **Flexbox** layouts.
+
+## 🚀 Purpose
 
 This project serves as a portfolio piece demonstrating:
 
@@ -32,8 +32,7 @@ This project serves as a portfolio piece demonstrating:
 
 > **IMPORTANT**: This website is **NOT RESPONSIVE**.
 > It was created specifically as a deep-dive into **Flexbox layout mechanics** and desktop-first design. It may not display correctly on mobile devices or smaller screens. It is intended for desktop viewing at standard resolutions (1920x1080 optimized).
->
-> 
+
 ## 📂 Project Structure
 
 - `/css`: Compiled production-ready CSS.
@@ -43,5 +42,5 @@ This project serves as a portfolio piece demonstrating:
 - `index.html`: Main site entry point.
 
 ---
-  _Created by [Rajesh] as part of a deep learning journey into modern web design._
 
+_Created by [Rajesh] as part of a deep learning journey into modern web design._
