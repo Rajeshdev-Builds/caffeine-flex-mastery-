@@ -1,0 +1,10 @@
+.menu-card__container {
+  display: flex;
+  background-color: aqua;
+}
+.menu-card__list {
+  flex-basis: 50%;
+}
+.menu-card__signature {
+  flex-basis: 50%;
+}/*# sourceMappingURL=menu-card.css.map */
