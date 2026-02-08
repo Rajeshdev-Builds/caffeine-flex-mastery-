@@ -1,0 +1,82 @@
+// Footer layout styles
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem 4rem;
+  background: var(--color-black);
+  color: var(--color-light1);
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__logo {
+    height: 4.2rem;
+    width: auto;
+    display: block;
+  }
+
+  &__logo-text {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color-light1);
+  }
+
+  &__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23rem;
+  }
+
+  &__social {
+    list-style: none;
+    display: flex;
+    gap: 1.4rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  &__social-item {
+    display: inline-flex;
+  }
+  &__social-icon {
+    height: 3.2rem;
+    width: 3.2rem;
+    fill: var(--color-light1);
+    transition: transform 0.2s ease, opacity 0.2s;
+    cursor: pointer;
+  }
+  &__social-icon:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__text-box {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 1.6rem;
+    color: var(--color-light1);
+    text-align: right;
+  }
+}

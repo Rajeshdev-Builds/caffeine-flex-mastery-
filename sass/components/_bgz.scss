@@ -1,0 +1,33 @@
+//parralax
+
+.zzz {
+  position: relative;
+  z-index: 0;
+}
+
+.zzz2 {
+  position: relative;
+  z-index: 0;
+}
+.p1 {
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  top: 1rem;
+  left: -10rem;
+}
+
+.p2 {
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  right: -8rem;
+}
+
+.p3 {
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
+  top: 40rem;
+  right: -5rem;
+}

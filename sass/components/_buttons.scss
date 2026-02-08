@@ -1,0 +1,109 @@
+.btn-group {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10rem;
+}
+
+.btn {
+  font-size: 2rem;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: var(--color-light1);
+  padding: 1.5rem 3rem;
+  text-transform: capitalize;
+  display: inline-block;
+  animation-delay: 1.6s;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.btn:hover {
+  color: var(--color-dark-brown);
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+//button fill
+
+.btn--fill {
+  color: var(--color-light1);
+  background-color: var(--color-dark-brown);
+  overflow: hidden;
+}
+
+.btn--fill::after {
+  content: "";
+  background: var(--color-light1);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -100%;
+  transition: top 0.5s ease;
+  z-index: 0;
+}
+
+.btn--fill__span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn--fill:hover::after {
+  top: 0;
+}
+
+//button hover effect
+
+.btn--scale::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: scale(0);
+  transition: all 0.3s;
+  border-radius: 100px;
+}
+
+.btn--scale::after {
+  background-color: var(--color-light1);
+}
+
+.btn--scale:hover:after {
+  transform: scale(2);
+  opacity: 0;
+}
+
+.btn-grp {
+  display: inline-block;
+  margin-left: 20rem;
+}
+
+.btn-outline {
+  display: inline-block;
+  color: var(--color-light1);
+  font-size: 2rem;
+  text-transform: capitalize;
+  border-bottom: 1px solid var(--color-light1);
+  padding: 1rem;
+
+  &:hover {
+    transform: translateY(-3px);
+    background-color: var(--color-light1);
+    color: #ffffff;
+    border-radius: 3px;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}

@@ -1,0 +1,88 @@
+.menu-card-2 {
+  &__container {
+    display: flex;
+    gap: 5rem;
+    height: 50rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  &__details {
+    height: 54rem;
+    flex-basis: 40%;
+    z-index: 5;
+    padding: 3rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #522c05;
+    -webkit-box-shadow: 5px 5px 2px #482704, -5px -5px 2px #5c3106;
+    box-shadow: 5px 5px 2px #482704, -5px -5px 2px #5c3106;
+  }
+
+  &__intro {
+    margin-bottom: 5rem;
+  }
+
+  &__subtitle {
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+
+  &__heading {
+    color: var(--color-light1);
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    margin: 0 0 1.5rem 0;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Roboto Flex", sans-serif;
+    margin: 1rem 0;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: skewY(5deg) skewX(20deg) scale(1.05);
+    }
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-transform: lowercase;
+  }
+
+  &__feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+
+  &__feature-icon {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  &__feature-box {
+    margin-left: 2rem;
+  }
+
+  &__feature-title {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: skewY(5deg) skewX(20deg) scale(1.05);
+    }
+  }
+
+  &__feature-text {
+    font-size: 1.5rem;
+    color: var(--color-text);
+  }
+  &__cta {
+    text-align: end;
+  }
+}

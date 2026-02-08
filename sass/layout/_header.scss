@@ -1,0 +1,106 @@
+.site-header {
+  background-color: var(--color-black);
+  min-height: 100vh;
+  /* &__topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.5rem;
+    width: 95%;
+    margin: 0 auto;
+  }*/
+
+  &__topbar {
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  &__info,
+  &__social,
+  &__address {
+    flex: 1; // equal space for left, center, right
+    display: flex;
+    align-items: center;
+  }
+
+  &__info {
+    justify-content: flex-start;
+    gap: 0.8rem;
+  }
+
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+    fill: var(--color-light1);
+    animation: clock-spin 3s infinite ease-in-out;
+  }
+  &__text {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  &__highlight {
+    display: inline-block;
+    margin: 0 0.5rem;
+    color: #e1bb80;
+    &:hover {
+      animation: pulse 1s infinite;
+    }
+  }
+
+  //social media icon
+
+  /*&__social {
+    padding-right: 25rem;
+  }
+
+  &__social-list {
+    display: flex;
+  }*/
+  &__social {
+    justify-content: center; // always perfectly centered
+  }
+
+  &__social-list {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  &__social-item {
+    margin: 0 2rem;
+  }
+
+  &__social-icon {
+    height: 3rem;
+    width: 3rem;
+    fill: var(--color-light1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  &__social-list:hover &__social-icon:not(:hover) {
+    transform: scale(0.9);
+  }
+
+  /*
+  &__address {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }*/
+
+  &__pinn {
+    opacity: 0;
+    animation: pin-drop 2s ease-out forwards; /* auto on load */
+  }
+  &__address:hover &__pinn {
+    animation: none;
+    animation: pin-drop-replay 2s ease-out forwards; /* auto on load */
+  }
+  &__address {
+    justify-content: flex-end;
+    gap: 0.8rem;
+  }
+}

@@ -1,0 +1,26 @@
+:root {
+  --color--primary: #0b0706;
+  --color--secondary: #522c05;
+  --color-black: #090c0f;
+  --color-dark-brown: #241401;
+  --color-light-brown: #352208;
+  --color-light1: #e1bb80;
+  --color-text: #a0a2a3;
+}
+
+.footer {
+  background-color: var(--color--primary);
+  color: var(--color-light1);
+  padding: 5rem 0;
+  text-align: center;
+
+  &__logo {
+    height: 6rem;
+  }
+
+  &__logo-text {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

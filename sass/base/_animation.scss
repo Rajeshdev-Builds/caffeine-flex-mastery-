@@ -1,0 +1,144 @@
+@keyframes clock-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-20deg);
+  }
+  20% {
+    transform: rotate(20deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pin-drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(5px);
+  }
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pin-drop-replay {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(5px);
+  }
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes dropIntop {
+  0% {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  50% {
+    transform: translateY(5rem);
+  }
+  80% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes moveInright {
+  0% {
+    opacity: 0;
+    transform: translateX(-5rem);
+  }
+  80% {
+    transform: translateX(3rem);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes moveInleft {
+  0% {
+    opacity: 0;
+    transform: translateX(5rem); // start from right
+  }
+  80% {
+    transform: translateX(-3rem); // little overshoot
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem); // start from right
+  }
+  80% {
+    transform: translateY(-1rem); // little overshoot
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes imgChange {
+  0% {
+    background-image:
+      linear-gradient(to right bottom, rgba(0, 0, 0, 0.241), #2414019e),
+      url(../images/general/started_img_n6.jpg);
+  }
+
+  50% {
+    background-image:
+      linear-gradient(to right bottom, rgba(0, 0, 0, 0.241), #2414019e),
+      url(../images/general/servie3.jpg);
+  }
+
+  100% {
+    background-image:
+      linear-gradient(to right bottom, rgba(0, 0, 0, 0.241), #2414019e),
+      url(../images/slidingimg/pexels-pavel-danilyuk-6612622.jpg);
+  }
+}

@@ -1,0 +1,20 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+  scroll-behavior:  smooth; ;
+}
+
+
+::selection {
+  background-color: var(--color-darklight-brown2);
+  color: #ffffff;
+}
